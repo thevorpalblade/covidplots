@@ -11,13 +11,13 @@ cd_usa = cd_unisex[cd_unisex["State"] == "United States"]
 ed_dataset = pd.read_csv("Excess_Deaths_Associated_with_COVID-19.csv")
 
 
-age_groups = [#'All Ages',
+age_groups = ['All Ages'
 #               'Under 1 year',
 #               '1-4 Years',
 #               '5-14 Years',
 #               '15-24 Years',
 #               '25-34 Years',
-              '35-44 Years'
+              # '35-44 Years',
               # '45-54 Years',
               # '55-64 Years',
               # '65-74 Years',
